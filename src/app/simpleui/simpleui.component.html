@@ -1,0 +1,14 @@
+<div>
+  User Name <input type="text" #userName>
+</div>
+
+<div>
+  Password <input type="text" #password>
+</div>
+
+<div>
+  <input type="button" value="Login" (click)="checkUser(userName.value,password.value)">
+</div>
+<div>
+  <input type="text" [value]="textStatus">
+</div>

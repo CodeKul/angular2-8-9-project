@@ -3,12 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-first',
   template : `
+    
     <div>
       <h1> This is header </h1> 
       <app-second></app-second>
 
       <p> First Para </p>
     </div>
+
+    <ng-content></ng-content>
   `,
   styles: [
     `div  { 

@@ -1,3 +1,19 @@
-<p>
-  databinding works!
-</p>
+<div class="myClass">
+  
+</div>
+
+<div [style.background]="'red'">Android</div>
+
+<div [ngStyle]="{'width':'300px', 'height':'100px', 'border':'1px solid red'}">
+    
+</div>
+
+<div [ngStyle]="newStyle">
+    
+</div>
+
+<div [ngClass]="{myClass : showMyClass}">
+    Android
+</div>
+
+<input type="button" (click)="showMyClass = !showMyClass" [value]="btnOkay"/>

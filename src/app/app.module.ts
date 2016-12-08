@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { DatabindingComponent } from './databinding/databinding.component';
+import { SimpleuiComponent } from './simpleui/simpleui.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FirstComponent,
     SecondComponent,
-    DatabindingComponent
+    DatabindingComponent,
+    SimpleuiComponent
   ],
   imports: [
     BrowserModule,
