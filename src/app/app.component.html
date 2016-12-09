@@ -15,5 +15,12 @@
 <hr>
 <app-databinding></app-databinding>-->
 
-<app-simpleui></app-simpleui>
+<!--<app-simpleui></app-simpleui>-->
+
+<div>
+  <app-btnpanel (clickedHero)="onHeroClickedApp($event)" ></app-btnpanel> <!--event Binding-->
+</div>
+<div>
+  <app-imagepanel [heroName] = "heroName"></app-imagepanel> <!--Property Binding-->
+</div>
 

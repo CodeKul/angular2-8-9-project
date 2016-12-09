@@ -8,6 +8,8 @@ import { FirstComponent } from './first/first.component';
 import { SecondComponent } from './second/second.component';
 import { DatabindingComponent } from './databinding/databinding.component';
 import { SimpleuiComponent } from './simpleui/simpleui.component';
+import { BtnpanelComponent } from './btnpanel/btnpanel.component';
+import { ImagepanelComponent } from './btnpanel/imagepanel.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { SimpleuiComponent } from './simpleui/simpleui.component';
     FirstComponent,
     SecondComponent,
     DatabindingComponent,
-    SimpleuiComponent
+    SimpleuiComponent,
+    BtnpanelComponent,
+    ImagepanelComponent
   ],
   imports: [
     BrowserModule,
